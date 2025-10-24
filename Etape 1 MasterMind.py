@@ -1,9 +1,9 @@
-
+# demande du nom du joueur et accueil
 nom=str(input("Quelle est votre nom ? : "))
 print(f"Bienvenue {nom} sur le jeu du Master Mind ! ")
 
+# enter la combinaison donnée par le joueur (limité de 1 à 6)
 combinaison = []
-
 for i in range(4):
     chiffre=0
     while chiffre >6 or chiffre<1:

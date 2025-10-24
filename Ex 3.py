@@ -1,6 +1,7 @@
-secret=[3,2,1,2]
-essai=[2,5,1,2]
+# secret=[3,2,1,2] test
+# essai=[2,5,1,2] test
 
+# verifie si un nombre est correct et à la bonne place
 def bienPlaces(secret,essai):
     bonne_place= 0
     for i in range(4):
@@ -8,6 +9,7 @@ def bienPlaces(secret,essai):
             bonne_place += 1
     return bonne_place
 
+# verifie si un nombre est correcte mais pas à la bonne place
 def malPlaces(secret,essai):
     bon_nombre = 0
     for i in range(4):
@@ -15,5 +17,5 @@ def malPlaces(secret,essai):
             bon_nombre += 1
     return bon_nombre
 
-print(bienPlaces(secret,essai))
-print(malPlaces(secret,essai))
+# print(bienPlaces(secret,essai)) test
+# print(malPlaces(secret,essai)) test

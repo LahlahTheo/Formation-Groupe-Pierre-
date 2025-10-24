@@ -8,3 +8,5 @@ def init_combinaison():
     for i in range(4):
         liste.append(randint(1,6))
     return liste
+
+# print(init_combinaison) test
