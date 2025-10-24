@@ -14,6 +14,3 @@ def aff_comb(liste):
     for i in range (4):
         print(liste[i], end=" ")
     return
-
-# print(init_combinaison) test
-# aff_comb(init_combinaison()) test
