@@ -9,4 +9,11 @@ def init_combinaison():
         liste.append(randint(1,6))
     return liste
 
+# fonction qui affiche une combinaison sur une seule ligne
+def aff_comb(liste):
+    for i in range (4):
+        print(liste[i], end=" ")
+    return
+
 # print(init_combinaison) test
+# aff_comb(init_combinaison()) test
