@@ -10,6 +10,6 @@ def bienPlaces(secret,essai):
 def malPlaces(secret,essai):
     bon_nombre = 0
     for i in range(4):
-        if (essai.count(secret[i])) and (essai[i])!=(secret[i]) :
+        if (secret.count(essai[i])) and (essai[i])!=(secret[i]) :
             bon_nombre += 1
     return bon_nombre
